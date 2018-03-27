@@ -1,0 +1,71 @@
+// VARIABLES
+$navBarHeight: 60px;
+$navBarBorderStyle: 1px solid red;
+
+// PLACEHOLDERS
+
+
+// IDS
+
+#navBarWrap{
+  height: $navBarHeight;
+  width:  100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  border-bottom: $navBarBorderStyle;
+  background-color: #000;
+}
+
+#navLeft{
+  height: 100%;
+  width:  auto;
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  align-items: center;
+}
+
+#navRight{
+height: 100%;
+width: auto;
+color: #FFF;
+display: flex;
+align-items: center;
+
+ul{
+
+  li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 30px 0;
+    cursor: pointer;
+
+    &:hover{
+      .navBarDrop{
+        display: block;
+        ul{
+          li{
+            padding: 10px;
+            width: 100%;
+            font-size: 1em;
+            display: block;
+          }
+        }
+      }
+      }
+    }
+  }
+}
+
+.navBarDrop{
+  display: none;
+  height: auto;
+  width: auto;
+  margin: 60px 0;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+}
