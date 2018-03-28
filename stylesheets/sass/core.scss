@@ -2,6 +2,8 @@
 
 @import 'components/reset';
 @import 'components/navBar';
+@import 'components/hero';
+
 
 //master conrtrols
 
@@ -10,4 +12,5 @@ body {
   height: vh;
   width: vw;
   font-family: sans-serif;
+  // background-color: black;
 }

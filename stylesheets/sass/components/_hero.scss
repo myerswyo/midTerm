@@ -1,0 +1,15 @@
+// class
+
+.hero{
+  width: 100vw;
+  height: 700px;
+  background: url("imgs/stage.jpg");
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: white;
+    span{
+      font-size: 3em;
+      padding: 150px 0 0 0;
+    }
+}
