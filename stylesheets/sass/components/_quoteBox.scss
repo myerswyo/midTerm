@@ -1,0 +1,41 @@
+// Classes
+
+.quoteBoxWrap{
+  width: 100vw;
+  height: 275px;
+  display: flex;
+  position: relative;
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quoteText{
+  display: flex;
+  font-size: 3em;
+  font-family: "Didot";
+}
+
+.donateButton{
+  // NOT RESPONSIVE FUCK
+  height: 50%;
+  width: 25%;
+  padding: 0 auto;
+  background-image: url("imgs/donateButton.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid red;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    h1{
+      font-family: "Timeless";
+      font-size: 3em;
+    }
+
+}

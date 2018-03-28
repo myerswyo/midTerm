@@ -3,14 +3,17 @@
 @import 'components/reset';
 @import 'components/navBar';
 @import 'components/hero';
+@import 'components/showFeatures';
+@import 'components/quoteBox';
+
 
 
 //master conrtrols
 
 
 body {
-  height: vh;
-  width: vw;
+  height: auto;
+  width: 100vw;
   font-family: sans-serif;
   // background-color: black;
 }
