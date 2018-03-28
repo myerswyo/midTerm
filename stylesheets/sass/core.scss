@@ -3,14 +3,15 @@
 @import 'components/reset';
 @import 'components/navBar';
 @import 'components/hero';
+@import 'components/showFeatures';
 
 
 //master conrtrols
 
 
 body {
-  height: vh;
-  width: vw;
+  height: auto;
+  width: 100vw;
   font-family: sans-serif;
   // background-color: black;
 }

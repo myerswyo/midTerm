@@ -1,0 +1,85 @@
+// Classes
+
+.showFeatureWrap{
+
+width: 100vw;
+height: 100vh;
+display: flex;
+position: relative;
+background-color: #6F695D;
+
+  .showFeature{
+    height: 100%;
+    width: 33.33%;
+    background-color: white;
+
+
+    // .readMoreButton{
+    //   // NOT RESPONSIVE FUCK
+    //   height: 10%;
+    //   width: 100%;
+    //   // padding: 0 auto;
+    //   background-image: url("imgs/readMoreButton.svg") no-repeat;
+    //   border: 1px solid red;
+    //   position: absolute;
+    //
+    //   bottom: 0;
+    //
+    // }
+  }
+}
+
+.readMoreButton{
+  // NOT RESPONSIVE FUCK
+  height: 10%;
+  width: 100%;
+  // padding: 0 auto;
+  background-image: url("imgs/readMoreButton.svg") no-repeat;
+  border: 1px solid red;
+  position: absolute;
+
+  bottom: 0;
+
+}
+
+.showPic{
+width: 100%;
+height: 320px;
+}
+
+.textWrap{
+  margin-left: 20px;
+  margin-right: 20px;
+
+  h1{
+    font-size: 1.5em;
+  }
+  span{
+
+  }
+}
+
+
+
+
+// IDS
+
+#redBackground{
+background-color: #CC433C;
+}
+
+#hamlet{
+  background: url("imgs/hamlet.png") no-repeat;
+  background-size: contain;
+  // transform: translateX(-25px);
+}
+#myFairLady{
+  background: url("imgs/myFairLady.png") no-repeat;
+  background-size: contain;
+  // transform: translateX(-25px);
+}
+#sherlock{
+  background: url("imgs/sherlock.png") no-repeat;
+  background-size: contain;
+  // transform: translateX(-25px);
+}
