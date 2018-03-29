@@ -1,6 +1,6 @@
 // VARIABLES
 $navBarHeight: 60px;
-$navBarBorderStyle: 1px solid red;
+$navBarBorderStyle: 1px solid white;
 
 // PLACEHOLDERS
 
@@ -28,6 +28,19 @@ $navBarBorderStyle: 1px solid red;
   justify-content: space-between;
   color: #FFF;
   align-items: center;
+
+  span{
+    color: white;
+    font-size: 2em;
+    font-family: "Libian SC";
+    transition: 5s;
+    cursor: pointer;
+      &:hover{
+        transition: 5s;
+        color: #CC433C;
+      }
+
+  }
 }
 
 #navRight{
@@ -44,10 +57,15 @@ ul{
     margin: 0 10px;
     padding: 30px 0;
     cursor: pointer;
+    transition: 1s;
 
     &:hover{
+      transition: .5s;
+      color: #CC433C;
+
       .navBarDrop{
         display: block;
+        transition: 10s;
         ul{
           li{
             padding: 10px;
@@ -69,8 +87,22 @@ ul{
     align-items: center;
     position: relative;
     margin-top: -5px;
-    border: 1px solid red;
+      &:hover{
+        transform: scale(1.5);
+      }
   }
+}
+#normal{
+
+  cursor: default;
+
+    &:hover{
+    cursor: default;
+    color: white !important;
+
+    // why yes I'm narcissistic, selfish and lazy.
+  }
+
 }
 
 .navBarDrop{
@@ -79,6 +111,7 @@ ul{
   width: auto;
   margin: 60px 0;
   background-color: #000;
+  border: 1px solid white;
   position: absolute;
   top: 0;
   z-index: 3;
