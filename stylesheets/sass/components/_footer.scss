@@ -1,3 +1,20 @@
+// PLACEHOLDERS
+
+%iconAdjustments{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    &:hover{
+      cursor: pointer;
+    }
+}
+
+
 // Classes
 
 .footerMainWrap{
@@ -10,7 +27,87 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  align-items: center;
 }
 
 
+#socialMedia{
+  height: 100%;
+  width: 25%;
+  // border: 1px solid red;
+  display: flex;
+  justify-content: center;
+
+
+  .icon{
+    height: 50px;
+    width: 50px;
+      &:hover{
+        transform: rotateZ(33deg);
+      }
+    // background-color: white;
+    // border: 1px solid red;
+  }
+}
+
 // IDS
+
+#phoneNum{
+  font-family: "Philosopher";
+  font-size: 2.75em;
+  color: #FFF;
+  transition: 1s;
+  &:hover{
+    cursor: pointer;
+    color: #CC433C;
+    transition: 1s;
+  }
+}
+#socialMedia{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+
+}
+#fax{
+  font-family: "Philosopher";
+  font-size: 2.75em;
+  color: #FFF;
+  transition: 1s;
+  &:hover{
+    transition: 1s;
+    cursor: pointer;
+    color: #CC433C;
+  }
+}
+
+#facebook{
+  height: 100%;
+  width: 100%;
+  background-image: url("imgs/facebook.svg");
+  @extend %iconAdjustments;
+}
+#email{
+  height: 100%;
+  width: 100%;
+  background-image: url("imgs/email.svg");
+  @extend %iconAdjustments;
+}
+#twitter{
+  height: 100%;
+  width: 100%;
+  background-image: url("imgs/twitter.svg");
+  @extend %iconAdjustments;
+}
+#instagram{
+  height: 100%;
+  width: 100%;
+  background-image: url("imgs/instagram.svg");
+  @extend %iconAdjustments;
+}
+#location{
+  height: 100%;
+  width: 100%;
+  background-image: url("imgs/locate.svg");
+  @extend %iconAdjustments;
+}

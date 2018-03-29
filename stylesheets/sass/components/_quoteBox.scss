@@ -1,3 +1,25 @@
+// PLACEHOLDERS
+
+%maskClick{
+  &:active{
+
+    h1{
+      display: none;
+    }
+
+    height: 138px;
+    width: 138px;
+    padding: auto 0;
+    display: block;
+    background-image: url("imgs/maskICO.png");
+    background-repeat: no-repeat;
+    // background-position: ;
+    background-size: contain;
+    // position: relative;
+
+  }
+}
+
 // Classes
 
 .quoteBoxWrap{
@@ -27,12 +49,15 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  border: 1px solid red;
   position: relative;
   bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+    @extend %maskClick;
+    &:hover{
+      cursor: pointer;
+    }
     h1{
       font-family: "Timeless";
       font-size: 3em;
