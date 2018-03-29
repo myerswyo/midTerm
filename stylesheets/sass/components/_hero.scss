@@ -13,7 +13,28 @@
   padding-bottom: 250px;
     span{
       cursor: default;
-      font-size: 3em;
+      font-size: 4em;
       padding: 150px 0 0 0;
+
+      animation-name: titlePop;
+      animation-duration: 2s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
     }
+}
+
+//animation
+
+@keyframes titlePop{
+  0%{
+    font-size: 0em;
+    color: white;
+  }
+  50%{
+    color: rgba(0,0,0,.75)
+  }
+  100%{
+    font-size: 0em;
+    color: rgba(0,0,0,0)
+  }
 }
