@@ -1,3 +1,25 @@
+// PLACEHOLDERS
+
+%maskClick{
+  &:active{
+
+    h1{
+      display: none;
+    }
+
+    height: 138px;
+    width: 138px;
+    padding: auto 0;
+    display: block;
+    background-image: url("imgs/maskICO.png");
+    background-repeat: no-repeat;
+    // background-position: ;
+    background-size: contain;
+    // position: relative;
+
+  }
+}
+
 // Classes
 
 .quoteBoxWrap{
@@ -32,23 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    &:active{
-
-      h1{
-        display: none;
-      }
-
-      height: 125px;
-      width: 125px;
-      padding: auto 0;
-      display: block;
-      background-image: url("imgs/maskICO.png");
-      background-repeat: no-repeat;
-      // background-position: center;
-      background-size: auto;
-      // position: relative;
-
-    }
+    @extend %maskClick;
     &:hover{
       cursor: pointer;
     }
