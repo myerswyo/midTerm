@@ -29,13 +29,14 @@ $navBarBorderStyle: 1px solid white;
   color: #FFF;
   align-items: center;
 
-  span{
+  #cltpLogo{
     color: white;
     font-size: 2em;
     font-family: "Libian SC";
     transition: 5s;
     cursor: pointer;
       &:hover{
+        font-size: 2em;
         transition: 5s;
         color: #CC433C;
       }
